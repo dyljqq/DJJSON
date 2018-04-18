@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7311D5C4207CB12C00C992DF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311D5C3207CB12C00C992DF /* SwiftyJSON.swift */; };
 		73F3C4372079F74300926085 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3C4362079F74300926085 /* main.swift */; };
+		73F3C43F2079F77E00926085 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3C43E2079F77E00926085 /* Map.swift */; };
+		73F3C4412079FC6100926085 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3C4402079FC6100926085 /* Mapper.swift */; };
+		73F3C443207A003B00926085 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3C442207A003B00926085 /* Mappable.swift */; };
+		73F3C445207A00A900926085 /* GrocerProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3C444207A00A900926085 /* GrocerProduct.swift */; };
+		73F3C447207A01D800926085 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3C446207A01D800926085 /* Operator.swift */; };
+		73F3C449207A043900926085 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3C448207A043900926085 /* FromJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7311D5C3207CB12C00C992DF /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		73F3C4332079F74300926085 /* DJJSON */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DJJSON; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F3C4362079F74300926085 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		73F3C43E2079F77E00926085 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		73F3C4402079FC6100926085 /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		73F3C442207A003B00926085 /* Mappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		73F3C444207A00A900926085 /* GrocerProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerProduct.swift; sourceTree = "<group>"; };
+		73F3C446207A01D800926085 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		73F3C448207A043900926085 /* FromJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7311D5C0207CA91600C992DF /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				7311D5C3207CB12C00C992DF /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
 		73F3C42A2079F74200926085 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +79,24 @@
 		73F3C4352079F74300926085 /* DJJSON */ = {
 			isa = PBXGroup;
 			children = (
+				7311D5C0207CA91600C992DF /* SwiftyJSON */,
+				73F3C43D2079F74800926085 /* ObjMapper */,
 				73F3C4362079F74300926085 /* main.swift */,
+				73F3C444207A00A900926085 /* GrocerProduct.swift */,
 			);
 			path = DJJSON;
+			sourceTree = "<group>";
+		};
+		73F3C43D2079F74800926085 /* ObjMapper */ = {
+			isa = PBXGroup;
+			children = (
+				73F3C43E2079F77E00926085 /* Map.swift */,
+				73F3C4402079FC6100926085 /* Mapper.swift */,
+				73F3C442207A003B00926085 /* Mappable.swift */,
+				73F3C446207A01D800926085 /* Operator.swift */,
+				73F3C448207A043900926085 /* FromJSON.swift */,
+			);
+			path = ObjMapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F3C43F2079F77E00926085 /* Map.swift in Sources */,
+				73F3C447207A01D800926085 /* Operator.swift in Sources */,
+				73F3C445207A00A900926085 /* GrocerProduct.swift in Sources */,
+				73F3C4412079FC6100926085 /* Mapper.swift in Sources */,
+				7311D5C4207CB12C00C992DF /* SwiftyJSON.swift in Sources */,
 				73F3C4372079F74300926085 /* main.swift in Sources */,
+				73F3C443207A003B00926085 /* Mappable.swift in Sources */,
+				73F3C449207A043900926085 /* FromJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
